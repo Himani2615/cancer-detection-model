@@ -1,4 +1,4 @@
-# cancer-detection-model
+# Cancer-detection-model
 This project implements a neural network model for cancer detection using TensorFlow, trained on a dataset containing features related to cancer patients and their diagnosis. It provides a simple yet effective tool for predicting cancer diagnosis based on patient data.
 
 # Requirements
@@ -15,7 +15,7 @@ Ensure you have the following dependencies installed:
 
   Clone the Repository:
 
-    git clone https://github.com/username/repository.git
+    git clone https://github.com/Himani2615/cancer-detection-model
 
 # Usage
 
@@ -54,9 +54,9 @@ Ensure to replace "new_data.csv" with the path to your new dataset file. After e
 
 To adapt this model for predicting cancer on new similar data, follow these guidelines:
 
-  Ensure the new dataset has the same features as the training dataset.
-  Preprocess the new data similarly to the training data (e.g., handle missing values, scale features).
-  Load the trained model using tf.keras.models.load_model.
-  Use the loaded model to predict on the new data.
+   Ensure the new dataset has the same features as the training dataset.
+   Preprocess the new data similarly to the training data (e.g., handle missing values, scale features).
+   Load the trained model using tf.keras.models.load_model.
+   Use the loaded model to predict on the new data.
 
 By following these steps, you can utilize the trained model for predicting cancer diagnosis on new datasets with similar features.
